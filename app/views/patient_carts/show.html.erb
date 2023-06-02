@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Klinik:</strong>
+  <%= @patient_cart.klinik_id %>
+</p>
+
+<p>
+  <strong>Doctor:</strong>
+  <%= @patient_cart.doctor_id %>
+</p>
+
+<%= link_to 'Edit', edit_patient_cart_path(@patient_cart) %> |
+<%= link_to 'Back', patient_carts_path %>

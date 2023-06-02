@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @klinik.name %>
+</p>
+
+
+<p>
+  <strong>Address:</strong>
+  <%= @klinik.address %>
+</p>
+
+<p>
+  <strong>Founding_date:</strong>
+  <%= @klinik.founding_date %>
+</p>
+
+<%= link_to 'Edit', edit_klinik_path(@klinik) %> |
+<%= link_to 'Back', kliniks_path %>
